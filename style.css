@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+.card{
+    border-bottom: 5px solid rgb(120, 0, 206) !important;
+    border-right: 5px solid rgb(120, 0, 206) !important;
+    border-top: 1px solid rgb(120, 0, 206) !important;
+    border-left: 1px solid rgb(120, 0, 206) !important;    
+    background-color: #11002b !important;
+}
+
+h1,h4{
+    margin-bottom: 0rem !important;
+}
+
+a{
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+.navbar{
+  border-bottom: 3px solid rgb(120, 0, 206);;
+}
+
+i{
+    font-size: 150px;
+}
+
+.sobremim{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+img{
+    height: 200px;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 700px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 999px;
+}
+
+@media(max-width: 768px)
+{
+  .sobremim{
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px)
+{
+  .sobremim{
+    width: 90%;
+  }
+}
